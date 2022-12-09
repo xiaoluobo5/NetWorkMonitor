@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NetWorkMonitor</class>
+ <widget class="QWidget" name="NetWorkMonitor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>380</width>
+    <height>140</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>380</width>
+    <height>140</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>NetWorkMonitor</string>
+  </property>
+  <property name="accessibleName">
+   <string/>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>360</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>360</width>
+     <height>140</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>360</width>
+     <height>140</height>
+    </size>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="7" column="0">
+     <widget class="QPushButton" name="startBtn">
+      <property name="text">
+       <string>Start Ping</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QPushButton" name="checkLogBtn">
+      <property name="text">
+       <string>Log</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="host_fixture1">
+      <property name="text">
+       <string>169.254.1.32</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QCheckBox" name="host_gh">
+      <property name="text">
+       <string>null</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="stopBtn">
+      <property name="text">
+       <string>Stop</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QCheckBox" name="host_fixture2">
+      <property name="text">
+       <string>169.254.1.34</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>V0.0.1 ©PRM </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Fixture1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Fixture2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>GroundHog</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
